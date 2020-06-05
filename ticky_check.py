@@ -56,5 +56,4 @@ def write_data_csv(error, per_user_error, per_user_info, username_list):
 if __name__ == '__main__':
 		data = organise_data()
 		error_sorted, per_user_error_sorted, per_user_info_sorted, username_list = sort_data(data)
-		print(error_sorted)
 		write_data_csv(error_sorted, per_user_error_sorted, per_user_info_sorted, username_list)
